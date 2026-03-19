@@ -25,12 +25,12 @@ A production-ready, 1-click installer to deploy a secure **n8n** automation stac
 ## 🚀 1-Click Installation
 Clone this repository and run the installer:
 
-\`\`\`bash
+```bash
 git clone https://github.com/YOUR_USERNAME/n8n-ubuntu-pro.git
 cd n8n-ubuntu-pro
 chmod +x install_n8n.sh
 ./install_n8n.sh
-\`\`\`
+```
 
 ---
 
@@ -49,7 +49,7 @@ The installer orchestrates four core containers:
 ## 📂 Directory Structure
 After installation, your project folder will look like this:
 
-\`\`\`text
+```text
 .
 ├── n8n_data/           # n8n configuration and binary files
 ├── postgres_data/      # PostgreSQL database files
@@ -57,7 +57,7 @@ After installation, your project folder will look like this:
 ├── .env                # Secrets (DB Pass, Tunnel Token, etc.) - GIT IGNORED
 ├── docker-compose.yml  # Container orchestration - GIT IGNORED
 └── install_n8n.sh      # The master installer script
-\`\`\`
+```
 
 ---
 
