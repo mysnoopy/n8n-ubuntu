@@ -1,0 +1,16 @@
+# Secrets and Configs
+.env
+docker-compose.yml
+
+# Databases and Persistent Data
+n8n_data/
+postgres_data/
+uptime_data/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
