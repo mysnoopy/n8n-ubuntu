@@ -26,8 +26,8 @@ A production-ready, 1-click installer to deploy a secure **n8n** automation stac
 Clone this repository and run the installer:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/n8n-ubuntu-pro.git
-cd n8n-ubuntu-pro
+git clone https://github.com/mysnoopy/n8n-ubuntu.git
+cd n8n-ubuntu
 chmod +x install_n8n.sh
 ./install_n8n.sh
 ```
